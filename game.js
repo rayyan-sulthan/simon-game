@@ -60,7 +60,7 @@ function checkAnswer(value){
 }
 // function to start the game after game over
 function startOver(){
-    $("#level-title").text("Game Over, Press Any Key to Restart");  // to update the gameover and command to start game again
+    $("#level-title").text("Game Over, Press a  Restart");  // to update the gameover and command to start game again
     level = 0;                                                      // to reset the level to 0
     gamePattern = [];                                               // to reset the game pattern to empty
     userPattern = [];                                               // to reset the user pattern to empty                         
